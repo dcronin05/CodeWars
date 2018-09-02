@@ -8,5 +8,9 @@ namespace CodeWars
 {
     class BitCounting
     {
+        public static int CountBits(int n)
+        {
+
+        }
     }
 }

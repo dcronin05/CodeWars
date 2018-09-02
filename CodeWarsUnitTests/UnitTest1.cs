@@ -9,6 +9,15 @@ namespace CodeWarsUnitTests
     public class KataTest
     {
         [TestMethod]
+        public void PersistTest()
+        {
+            Assert.AreEqual(3, Persist.Persistence(39));
+            Assert.AreEqual(0, Persist.Persistence(4));
+            Assert.AreEqual(2, Persist.Persistence(25));
+            Assert.AreEqual(4, Persist.Persistence(999));
+        }
+
+        [TestMethod]
         public void NoVowels()
         {
             Assert.AreEqual("Hll wrld.", DisemvowelTrolls.Disemvowel("Hello world."));
