@@ -10,7 +10,7 @@ namespace CodeWars
     {
         public static int CountBits(int n)
         {
-
+            return 0;
         }
     }
 }
