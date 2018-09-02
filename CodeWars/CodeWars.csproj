@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="ComplementaryDNA.cs" />
     <Compile Include="CountingDuplicates.cs" />
+    <Compile Include="DisemvowelTrolls.cs" />
     <Compile Include="FriendOrFoe.cs" />
     <Compile Include="IsThisATriangle.cs" />
     <Compile Include="Program.cs" />

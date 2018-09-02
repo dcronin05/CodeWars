@@ -9,7 +9,18 @@ namespace CodeWarsUnitTests
     public class KataTest
     {
         [TestMethod]
-        public void IsTriangle_ValidPositiveNumbers_ReturnsTrue() => Assert.IsTrue(IsThisATriangle.IsTriangle(5, 7, 10));
+        public void NoVowels()
+        {
+            Assert.AreEqual("Hll wrld.", DisemvowelTrolls.Disemvowel("Hello world."));
+            Assert.AreEqual("Ths wbst s fr lsrs LL!", DisemvowelTrolls.Disemvowel("This website is for losers LOL!"));
+        }
+
+        [TestMethod]
+        public void IsTriangle_ValidPositiveNumbers_ReturnsTrue()
+        {
+            Assert.IsTrue(IsThisATriangle.IsTriangle(5, 7, 10));
+            Assert.IsTrue(IsThisATriangle.EfficientTriangle(5, 7, 10));
+        }
 
         [TestMethod]
         public void KataTests()
