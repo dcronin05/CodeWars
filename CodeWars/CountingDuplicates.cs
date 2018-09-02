@@ -10,7 +10,7 @@ namespace CodeWars
     {
         public static int DuplicateCount(string str)
         {
-            //TODO: Post this cove to solve Kada.
+            // TODO: Post this code to solve Kada.
             var duplicates = new List<char>();
             var characters = new List<char>();
 

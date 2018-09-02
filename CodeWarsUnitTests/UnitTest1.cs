@@ -9,6 +9,9 @@ namespace CodeWarsUnitTests
     public class KataTest
     {
         [TestMethod]
+        public void IsTriangle_ValidPositiveNumbers_ReturnsTrue() => Assert.IsTrue(IsThisATriangle.IsTriangle(5, 7, 10));
+
+        [TestMethod]
         public void KataTests()
         {
             Assert.AreEqual("Hello world", Program.TempMethod());
