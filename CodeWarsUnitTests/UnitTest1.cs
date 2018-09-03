@@ -9,6 +9,16 @@ namespace CodeWarsUnitTests
     public class KataTest
     {
         [TestMethod]
+        public void BitCountingTest()
+        {
+            Assert.AreEqual(0, BitCounting.CountBits(0));
+            Assert.AreEqual(1, BitCounting.CountBits(4));
+            Assert.AreEqual(3, BitCounting.CountBits(7));
+            Assert.AreEqual(2, BitCounting.CountBits(9));
+            Assert.AreEqual(2, BitCounting.CountBits(10));
+        }
+
+        [TestMethod]
         public void PersistTest()
         {
             Assert.AreEqual(3, Persist.Persistence(39));
