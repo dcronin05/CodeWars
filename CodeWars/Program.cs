@@ -10,11 +10,6 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CountingDuplicates.DuplicateCount("Indivisibility."));
-
-            Console.Write("Persist: ");
-            Persist.Persistence(358);
-            Console.Read();
         }
 
         public static string TempMethod()

@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accumulate.cs" />
     <Compile Include="BitCounting.cs" />
+    <Compile Include="MorseCodeDecoder.cs" />
     <Compile Include="ComplementaryDNA.cs" />
     <Compile Include="CountingDuplicates.cs" />
     <Compile Include="DisemvowelTrolls.cs" />
@@ -51,6 +53,7 @@
     <Compile Include="Persist.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumDigPower.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

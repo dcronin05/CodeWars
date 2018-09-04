@@ -9,6 +9,20 @@ namespace CodeWarsUnitTests
     public class KataTest
     {
         [TestMethod]
+        public void MorseCodeTest()
+        {
+            Assert.AreEqual("HEY JUDE", MorseCodeDecoder.Decode(".... . -.--   .--- ..- -.. ."));
+        }
+
+        [TestMethod]
+        public void AccumlTest()
+        {
+            Assert.AreEqual("A-Bb-Ccc-Dddd-Eeeee", Accumulate.Accum("abcde"));
+            Assert.AreEqual("Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu", 
+                Accumulate.Accum("ZpglnRxqenU"));
+        }
+
+        [TestMethod]
         public void BitCountingTest()
         {
             Assert.AreEqual(0, BitCounting.CountBits(0));

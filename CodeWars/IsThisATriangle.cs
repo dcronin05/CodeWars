@@ -16,6 +16,8 @@ namespace CodeWars
             int sideLength1 = a + b; int sideLength2 = a + c; int sideLength3 = b + c;
 
             if (sideLength1 > c && sideLength2 > b && sideLength3 > a) return true; else return false;
+
+            Console.WriteLine(string.Format("{0}", sideLength1));
         }
 
         public static bool EfficientTriangle(int a, int b, int c) => (a + b > c && a + c > b && b + c > a);
